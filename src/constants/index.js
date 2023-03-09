@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  python,
+  chatbot,
+  nodered , 
 } from "../assets";
 
 export const navLinks = [
@@ -72,33 +75,33 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
   },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "chatbot",
+    icon: chatbot,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
+    name: "python",
+    icon: python,
   },
   {
     name: "git",
@@ -111,6 +114,10 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "nodered",
+    icon: nodered,
   },
 ];
 
@@ -129,16 +136,15 @@ const experiences = [
     ],
   },
   {
-    title: "Desenvolvedor Full-Stack Web",
+    title: "Desenvolvedor Full-Stack Web /Co-fundador e CPO",
     company_name: "Glocheck",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Dezembro 2022 - Atualmente",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Fui responsável pelo desenvolvimento completo do Website.",
+      "Desenvolvi back-end completo para o recebimento e disparo automático de arquivos.",
+      "Implementei uma inteligência artificial capaz de corrijir arquivos de forma automática",
     ],
   },
   // {
@@ -198,30 +204,30 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Medidor batimento cardíaco usando webcam",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Usando Python, visão computacional e machine learning, foi desenvolvido um sistema para verificar os batimentos cardíacos em tempo e plotar no gráfico.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "Machine Learning",
+        color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "Visão Computacional",
+        color: "blue-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.linkedin.com/in/rafael-santis-ab64b2177/",
   },
   {
-    name: "Job IT",
+    name: "App para indicar ao usuário onde estacionar na rua de forma gratuita",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Um app integrado a câmeras ao redor de várias cidades que usa inteligência artificial para analisar os vídeos e em tempo real informa ao usuário onde há lugares para ele estacionar de forma gratuita baseado em sua localização.",
     tags: [
       {
         name: "react",
