@@ -25,7 +25,8 @@ import {
   threejs,
   python,
   chatbot,
-  nodered , 
+  nodered, 
+  printmedidor,
 } from "../assets";
 
 export const navLinks = [
@@ -221,7 +222,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: carrent,
+    image: printmedidor,
     source_code_link: "https://www.linkedin.com/in/rafael-santis-ab64b2177/",
   },
   {
