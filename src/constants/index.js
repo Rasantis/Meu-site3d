@@ -247,21 +247,13 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Plataforma de disparo em massa de emails e whatsapps personalizados",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Desenvolvi uma plataforma de envio automatizado de whatsapps e emails. A plataforma tinha como o objetivo conectar pequenos influencers a profissionais de marketing digital..",
     tags: [
       {
-        name: "nextjs",
+        name: "Python",
         color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
       },
     ],
     image: tripguide,
