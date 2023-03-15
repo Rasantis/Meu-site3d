@@ -47,19 +47,21 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Eu sou um jovem empreendedor de 20 anos formado em Análise e desenvolvimento
-        de software pela Fiap, com 2 anos de experiência em desenvolvimento de software e 
-        4 anos de experiência no ramo de marketing digital, atuando desde o desenvolvimento
-        de sites, gestão de tráfego e mídias sociais, copywriting...  
-        Atualmente tenho 2 startups, 1 a qual sou fundador e CEO <a href="https://Vagalivre.tech"><h4>Vaga-livre</h4></a>
-        Uma startup B2B E B2C, onde no B2B, ela é responsável por ser uma solução até 80% mais 
-        barata aos sensores de estacionamento. Já na frente B2C temos um App publicado na playstore
-        que usando câmeras ao redor de várias cidades no Brasil para indicar ao usuário onde estacionar
-        seu carro na rua de forma gratuita, simples e fácil, veja-o no nosso site aqui: <a href="https://Vagalivre.tech/index1.html"><h4>Vaga-livre (B2C)</h4></a>. 
+        Eu sou um jovem empreendedor de 20 anos formado em Análise e desenvolvimento de software pela Fiap, com 2 anos
+        de experiência em desenvolvimento de software e 4 anos de experiência no ramo de marketing digital, atuando 
+        desde o desenvolvimento de sites, gestão de tráfego e mídias sociais, copywriting...  
+
+        Atualmente tenho 2 startups, 1 a qual sou fundador e CEO <a href="https://Vagalivre.tech" style={{color: 'greenyellow'}}><h4>Vaga-livre(B2B)</h4></a>
+
+        Uma startup B2B E B2C, onde no B2B, ela é responsável por ser uma solução até 80% mais barata aos sensores de 
+        estacionamento. Já na frente B2C temos um App publicado na playstore que usando câmeras ao redor de várias 
+        cidades no Brasil para indicar ao usuário onde estacionar seu carro na rua de forma gratuita, simples e fácil, 
+        veja-o no nosso site aqui: <a href="https://Vagalivre.tech/index1.html" style={{color: 'greenyellow'}}><h4>Vaga-livre (B2C)</h4></a>. 
+
         Já na startup cujo o qual sou o Co-fundador e CPO, eu fui o responsável por desenvolver um software
         completo de inteligencia artificial que trabalhava com o recebimento de arquivos, auto-correção e 
         envio automático para convênios médicos, assim reduzindo de forma exponencial o índice de perdas devido a 
-        erros de correção, veja o nosso site aqui:  <a href="https://glocheck.com.br"><h4>Glocheck</h4></a>
+        erros de correção, veja o nosso site aqui:  <a href="https://glocheck.com.br" style={{color: 'blue'}}><h4>Glocheck</h4></a>
       
       </motion.p>
 
